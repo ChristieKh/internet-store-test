@@ -1,4 +1,5 @@
-import {FETCH_CARD_SUCCESS} from 'actionsTypes';
+import {FETCH_CARD_SUCCESS} from "../actionsTypes";
+
 
 const initialState = {};
 

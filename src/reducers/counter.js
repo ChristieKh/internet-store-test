@@ -1,4 +1,4 @@
-import {DECREMENT_ITEM_TO_BASKET, INCREMENT_ITEM_TO_BASKET, CHANGE_VALUE_COUNTER} from "../actionsTypes";
+import {CHANGE_VALUE_COUNTER, DECREMENT_ITEM_TO_BASKET, INCREMENT_ITEM_TO_BASKET} from "../actionsTypes";
 
 const initalState = {
     value: 1

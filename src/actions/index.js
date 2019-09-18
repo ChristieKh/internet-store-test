@@ -4,8 +4,8 @@ import {
     FETCH_CARD_START, FETCH_CARD_SUCCESS, FETCH_CARD_FAIL,
     ADD_ITEM_TO_BASKET,DELETE_ITEM_TO_BASKET,
     INCREMENT_ITEM_TO_BASKET, DECREMENT_ITEM_TO_BASKET, CHANGE_VALUE_COUNTER
-} from 'actionsTypes';
-import {fetchCategoriesApi, fetchItemsApi, fetchCardApi} from 'api';
+} from '../actionsTypes';
+import {fetchCategoriesApi, fetchItemsApi, fetchCardApi} from '../api';
 
 export const fetchCategory = () => async dispatch => {
     dispatch({type: FETCH_CATEGORIES_START});

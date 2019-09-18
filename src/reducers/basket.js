@@ -1,4 +1,4 @@
-import {ADD_ITEM_TO_BASKET, DELETE_ITEM_TO_BASKET} from 'actionsTypes';
+import {ADD_ITEM_TO_BASKET, DELETE_ITEM_TO_BASKET} from "../actionsTypes";
 
 const initialState = [];
 
